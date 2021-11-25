@@ -1,7 +1,0 @@
-The HTML code below can be pasted at the bottom of your website's body tag to embed Crate in your website:
-<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-	new Crate({
-		server: '910992761216438292', // Alpha Studioz
-		channel: '910992761216438295' // #chat
-	})
-</script>
