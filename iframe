@@ -1,1 +1,7 @@
-<iframe src="https://discord.com/widget?id=910992761216438292&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>l
+The HTML code below can be pasted at the bottom of your website's body tag to embed Crate in your website:
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+	new Crate({
+		server: '910992761216438292', // Alpha Studioz
+		channel: '910992761216438295' // #chat
+	})
+</script>
