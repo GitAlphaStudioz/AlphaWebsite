@@ -15,18 +15,10 @@
                     <h4>AlphaStudioz</h4>
                 </div>
                 <ul class="buttons">
-                    <a href="#">
-                        <button class="btn">Home</button>
-                    </a>
-                    <a href="/about">
-                        <button class="btn">About</button>
-                    </a>
-                    <a href="/discord">
-                        <button class="discord">Discord</button>
-                    </a>
-                    <a href="github">
-                        <button class="btn">Github</button>
-                    </a>
+                    <button class="btn" onclick="location.href='/'">Home</button>
+                    <button class="btn" onclick="location.href='/about'">About</button>
+                    <button class="btn" onclick="location.href='/discord'">Discord</button>
+                    <button class="btn" onclick="location.href='/github'">Github</button>
                 </ul>
             </div>
         </nav>
@@ -42,7 +34,7 @@
             justify-content: space-around;
             align-items: center;
             min-height: 8vh;
-            background-color: black;
+            background-color: #5865F2;
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
         .logo {
@@ -62,9 +54,10 @@
         }
         .btn:hover {
             background-color: red;
+            cursor: pointer;
         }
         .discord {
-            background-attachment: var();
+            background-color: cyan;
             color: white;
             font-size: 15px;
             transition-duration: 0.5s;
@@ -74,9 +67,10 @@
         }
         .discord:hover {
             background-color: blue;
+            cursor: pointer;
         }
         body {
-            background-color: red;
+            background-color: #23272A;
         }
     </style>
 </html>

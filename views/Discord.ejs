@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <body style="background-color: black;">
-    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-        new Crate({
-            server: '910992761216438292', // Alpha Studioz
-            channel: '910992761216438295' // #chat
-        })
-    </script>
+    <head>
+        <meta charsets="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-COMPATIBLE" content="ie-edge">
+        <title>AlphaStudioz</title>
+        <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+            new Crate({
+                server: '910992761216438292', // Alpha Studioz
+                channel: '910992761216438295' // #chat
+            })
+        </script>
+    </head>
+
+    <body>
+        <nav>
+            <div>
+                <div class="logo">
+                    <h4>AlphaStudioz</h4>
+                </div>
+                <ul class="buttons">
+                    <button class="btn" onclick="location.href='/'">Home</button>
+                    <button class="btn" onclick="location.href='/about'">About</button>
+                    <button class="btn" onclick="location.href='/discord'">Discord</button>
+                    <button class="btn" onclick="location.href='/github'">Github</button>
+                </ul>
+            </div>
+        </nav>
     </body>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 8vh;
+            background-color: #5865F2;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .logo {
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+        .btn {
+            background-color: cyan;
+            color: white;
+            font-size: 15px;
+            transition-duration: 0.5s;
+            border: 2px solid;
+            border-radius: 8px;
+            font-family: sans-serif;
+        }
+        .btn:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+        .discord {
+            background-color: cyan;
+            color: white;
+            font-size: 15px;
+            transition-duration: 0.5s;
+            border: 2px solid;
+            border-radius: 8px;
+            font-family: sans-serif;
+        }
+        .discord:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+        body {
+            background-color: #23272A;
+        }
+    </style>
 </html>

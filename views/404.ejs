@@ -14,77 +14,71 @@
                     <h4>AlphaStudioz</h4>
                 </div>
                 <ul class="buttons">
-                    <a href="#">
-                        <button class="btn">Home</button>
-                    </a>
-                    <a href="/about">
-                        <button class="btn">About</button>
-                    </a>
-                    <a href="/discord">
-                        <button class="discord">Discord</button>
-                    </a>
-                    <a href="github">
-                        <button class="btn">Github</button>
-                    </a>
+                    <button class="btn" onclick="location.href='/'">Home</button>
+                    <button class="btn" onclick="location.href='/about'">About</button>
+                    <button class="btn" onclick="location.href='/discord'">Discord</button>
+                    <button class="btn" onclick="location.href='/github'">Github</button>
                 </ul>
             </div>
         </nav>
-        <div class="message">
-            <h1>Error 404</h1>
-        </div>
-        <p text-align="">Not sure how you got here... But this page does not exist 0_o</p>
+            <center>
+            <h1 style="color: #5865F2;">Error 404</h1>
+            <p style="color: #5865F2;">Not sure how you got here... But this page does not exist 0_o</p>
+            </center>
     </body>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            min-height: 8vh;
-            background-color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-        .logo {
-            color: white;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            font-size: 20px;
-        }
-        .btn {
-            background-color: cyan;
-            color: white;
-            font-size: 15px;
-            transition-duration: 0.5s;
-            border: 2px solid;
-            border-radius: 8px;
-            font-family: sans-serif;
-        }
-        .btn:hover {
-            background-color: red;
-        }
-        .discord {
-            background-attachment: var();
-            color: white;
-            font-size: 15px;
-            transition-duration: 0.5s;
-            border: 2px solid;
-            border-radius: 8px;
-            font-family: sans-serif;
-        }
-        .discord:hover {
-            background-color: blue;
-        }
-        body {
-            background-color: grey;
-        }
-        .message {
-            margin-top: 25%;
-            margin-left: 50%;
-            margin-right: 50%;
-        }
-    </style>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background-color: #5865F2;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .logo {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+    .btn {
+        background-color: cyan;
+        color: white;
+        font-size: 15px;
+        transition-duration: 0.5s;
+        border: 2px solid;
+        border-radius: 8px;
+        font-family: sans-serif;
+    }
+    .btn:hover {
+        background-color: red;
+        cursor: pointer;
+    }
+    .discord {
+        background-color: cyan;
+        color: white;
+        font-size: 15px;
+        transition-duration: 0.5s;
+        border: 2px solid;
+        border-radius: 8px;
+        font-family: sans-serif;
+    }
+    .discord:hover {
+        background-color: blue;
+        cursor: pointer;
+    }
+    body {
+        background-color: #23272A;
+    }
+    .message {
+        margin-top: 25%;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+</style>
 </html>
